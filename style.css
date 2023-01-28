@@ -5,17 +5,49 @@ body {
     height: 100vh;
     margin: 0;
     background: #222;
-    background-image: url('https://source.unsplash.com/random/?landscape');
+    background-image: url('https://source.unsplash.com/random/1920x1080/?landscape');
     font-family: 'Open Sans', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
 }
 
 
 
 .card {
-    background: #eaeaea;
+    background: #000000d3;
+    color: white;
     padding: 2em;
     border-radius: 30px;
     width: 100%;
     max-width: 450px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background-color: #e6d0d0d3;
+}
+
+input {
+    border-radius: 18px 18px;
+    outline: none;    
+    font-family: 'Open Sans', sans-serif;
+    height: 2em;
+    padding: 0.3em;
+    width: 80%;
+    font-size: 15px;
+}
+
+h1.temp {
+    margin: 0;
 }
