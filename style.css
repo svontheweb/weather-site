@@ -60,8 +60,11 @@ h1.temp {
 }
 .description {
     text-transform: capitalize;
-    margin-left: 0px;
 }
 .flex img {
     margin: 0px 0px;
+}
+
+.weather.loading {
+    display: none;
 }
